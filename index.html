@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LevelUp</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="promo">
+      <video class="promo__video" autoplay muted loop>
+        <source src="img/car.mp4" type="video/mp4" />
+        <source src="img/car.webm" type="video/webm" />
+      </video>
+      <h1 class="promo__title">LevelUp</h1>
+      <div class="promo__content">
+        <img class="promo__image" src="img/prod.png" alt="Продукт LevelUp" />
+        <ul class="promo__list">
+          <li class="promo__list-item">Заряд тестостерона</li>
+          <li class="promo__list-item">Длительная эрекция</li>
+          <li class="promo__list-item">Новый уровень ощущений</li>
+        </ul>
+      </div>
+      <a href="#order-form"><button class="promo__button">Заказать</button></a>
+    </div>
+    <div class="block-2">
+      <h2 class="block-2__title">Состав продукта</h2>
+      <div class="block-2__content">
+        <div class="block-2__ingredients">
+          <div class="block-2__ingredient">
+            <div class="block-2__ingredient-icon">
+              <img src="img/ingredient-1.jpg" alt="Ингредиент 1" />
+            </div>
+            <div class="block-2__ingredient-name">Ашвагандха</div>
+          </div>
+          <div class="block-2__ingredient">
+            <div class="block-2__ingredient-icon">
+              <img src="img/ingredient-2.jpg" alt="Ингредиент 2" />
+            </div>
+            <div class="block-2__ingredient-name">Эврикома длиннолистая</div>
+          </div>
+          <div class="block-2__ingredient">
+            <div class="block-2__ingredient-icon">
+              <img src="img/ingredient-3.jpg" alt="Ингредиент 3" />
+            </div>
+            <div class="block-2__ingredient-name">Мукуна жгучая</div>
+          </div>
+        </div>
+        <img class="block-2__image" src="img/prod.png" alt="Продукт LevelUp" />
+        <div class="block-2__ingredients">
+          <div class="block-2__ingredient">
+            <div class="block-2__ingredient-icon">
+              <img src="img/ingredient-4.jpg" alt="Ингредиент 4" />
+            </div>
+            <div class="block-2__ingredient-name">Йохимбе</div>
+          </div>
+          <div class="block-2__ingredient">
+            <div class="block-2__ingredient-icon">
+              <img src="img/ingredient-5.jpg" alt="Ингредиент 5" />
+            </div>
+            <div class="block-2__ingredient-name">Кора дуба</div>
+          </div>
+          <div class="block-2__ingredient">
+            <div class="block-2__ingredient-icon">
+              <img src="img/ingredient-6.png" alt="Ингредиент 6" />
+            </div>
+            <div class="block-2__ingredient-name">Название ингредиента 6</div>
+          </div>
+        </div>
+      </div>
+      <a href="#order-form"
+        ><button class="block-2__button">Заказать</button></a
+      >
+    </div>
+    <div class="block-3">
+      <h2 class="block-3__title">Отзывы наших клиентов</h2>
+      <div class="block-3__carousel">
+        <div class="block-3__slide">
+          <img class="block-3__avatar" src="img/avatar1.jpg" alt="Аватар 1" />
+          <h3 class="block-3__name">Сергей</h3>
+          <p class="block-3__review">
+            Лекарство, действительно помогающее при заболевании. Хорошо
+            упаковано, более чем достаточный срок годности.
+          </p>
+        </div>
+        <div class="block-3__slide">
+          <img class="block-3__avatar" src="img/avatar2.jpg" alt="Аватар 2" />
+          <h3 class="block-3__name">Михаил</h3>
+          <p class="block-3__review">
+            Работает отлично, реакция организма через 15 минут гарантировано.
+          </p>
+        </div>
+        <div class="block-3__slide">
+          <img class="block-3__avatar" src="img/avatar3.jpg" alt="Аватар 3" />
+          <h3 class="block-3__name">Константин</h3>
+          <p class="block-3__review">
+            Достойный препарат. Помог однозначно после курса.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="block-4">
+      <div class="block-4__content">
+        <img
+          class="block-4__image"
+          src="img/doctor.png"
+          alt="Довольный покупатель"
+        />
+        <p class="block-4__description">
+          Восстанавливает нарушенную эректильную функцию и обеспечивает
+          естественный ответ на сексуальное возбуждение.
+        </p>
+      </div>
+      <ul class="block-4__list">
+        <li class="block-4__list-item">Заряд тестостерона</li>
+        <li class="block-4__list-item">Длительная эрекция</li>
+        <li class="block-4__list-item">Новый уровень ощущений</li>
+      </ul>
+      <a href="#order-form"
+        ><button class="block-4__button">Заказать</button></a
+      >
+    </div>
+    <div class="block-5" id="order-form">
+      <h2 class="block-5__title">Закажите LevelUp сейчас!</h2>
+      <div class="block-5__timer">
+        <span class="block-5__timer-label">Осталось:</span>
+        <span class="block-5__timer-value" id="timer-value">30:00</span>
+      </div>
+      <div class="block-5__content">
+        <div class="block-5__product">
+          <img
+            class="block-5__image"
+            src="img/prod.png"
+            alt="Продукт LevelUp"
+          />
+          <div class="block-5__price">
+            <span class="block-5__price-old">1000 руб.</span>
+            <span class="block-5__price-new">500 руб.</span>
+          </div>
+        </div>
+        <form class="block-5__form">
+          <label for="name" class="block-5__label">Ваше имя:</label>
+          <input
+            type="text"
+            id="name"
+            class="block-5__input"
+            placeholder="Валерий"
+          />
+          <label for="phone" class="block-5__label">Ваш телефон:</label>
+          <input
+            type="text"
+            id="phone"
+            class="block-5__input"
+            placeholder="89521231337"
+          />
+          <button type="submit" class="block-5__button">Заказать</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
